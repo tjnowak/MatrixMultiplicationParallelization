@@ -17,6 +17,7 @@ The implementations all auto-generate 2 square matrices filled with random integ
 ## Results
 The OpenMP7 implementation executed 3 to 4 times faster than the StrassenSerial implementation. The OpenMP7-MPI7 implementation performed about the same as the MPI7 implementation, indicating that the number of nodes used for matrix multiplication is more important than the number of threads running on each node. The OpenMP56 implementation was the slowest of all parallel implementations; it appears that the number of cores available to run threads was a bottleneck. Although each node of the supercomputer used for testing had 32 cores, this implementation needed 56 to run all 56 threads simultaneously. Finally, the MPI56 implementation, which used a maximum of 56 nodes for matrix multiplication, had the fastest runtime. It ran almost 18 times faster than the StrassenSerial Implementation.
 
+
 <p align="center">
   <img src="ImplementationSpeedups.JPG" alt="Speedup of Parallel Implementations">
   <br>
