@@ -16,4 +16,4 @@ The implementations all auto-generate 2 square matrices filled with random integ
 
 ## Results
 
-<img src="ImplementationSpeedups.jpg" alt="About Us" width="500">
+<img src="ImplementationSpeedups.jpg" alt="Speedup of Parallel Implementations">
