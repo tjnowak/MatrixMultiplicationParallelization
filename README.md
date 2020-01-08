@@ -19,5 +19,6 @@ The OpenMP7 implementation executed 3 to 4 times faster than the StrassenSerial 
 
 <p align="center">
   <img src="ImplementationSpeedups.JPG" alt="Speedup of Parallel Implementations">
+  <br>
   Figure 1 - Speedup of parallel implementations of Strassen's algorithm compared to the serial implementation
 </p>
